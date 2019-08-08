@@ -2,10 +2,14 @@ package main;
 public class Item{
     public String itemName;
     public int mrp;
+    int i=0;
     public  void addItem(String itemName,int mrpItem){
         //write your code here
-    	//-------------------
-
+    	
+    	this.itemName=itemName;
+    	this.mrp=mrpItem;
+    	i=i+1;
+    	
     }
 	public String getItemName() {
 		return itemName;
@@ -19,5 +23,5 @@ public class Item{
 	public void setMrp(int mrp) {
 		this.mrp = mrp;
 	}
-    
+      
 }
